@@ -4,11 +4,11 @@ def valid_move?(input)
     nil
   else
     if 0 <= input <= 9
-      true 
+      true
     else
       false
     end
-  end  
+  end
 end
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
 def position_taken?(board,index)
